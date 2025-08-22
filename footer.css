@@ -91,7 +91,13 @@ body.clinic_version .footer .widget-title h3 {
 }
 .footer-text p {
     margin: 0;
-    color: #fff;
+    color: #fff !important;
+}
+.footer-text a {
+    color: #fff !important;
+}
+.footer-text a :hover {
+    color: #000000 !important;
 }
 .footer-info i {
     position: absolute;
