@@ -1,0 +1,127 @@
+/* Doctor Card */
+.doctor-card {
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+/* Doctor Name - Bigger */
+.doctor-card .doctor-name {
+  font-size: 2.25rem; /* ~text-4xl */
+  font-weight: 800;
+  color: #1e40af; /* Blue-800 */
+}
+
+/* Doctor Role (Founder/Co-Founder) - Bigger */
+.doctor-card .doctor-role {
+  font-size: 1.5rem; /* ~text-2xl */
+  font-weight: 700;
+  color: #1f2937; /* Gray-800 */
+  margin-top: 0.5rem;
+}
+
+/* Doctor Specialization - Bigger */
+.doctor-card .doctor-special {
+  font-size: 1.375rem; /* ~22px */
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: #374151; /* Gray-700 */
+}
+
+/* Doctor Image */
+.doctor-card .doctor-image {
+  height: 450px; /* Increased image height */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Bigger Know More Button */
+.doctor-card a {
+  font-size: 1.5rem;   /* Tailwind ~text-2xl (≈24px) */
+  font-weight: 700;    /* Bold */
+  padding: 0.9rem 2.5rem; /* Bigger padding for larger button */
+  border-radius: 0.5rem;
+  background-color: #2563eb; /* Tailwind Blue-600 */
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.doctor-card a:hover {
+  background-color: #1e40af; /* Darker blue hover */
+  transform: scale(1.05);   /* Subtle grow on hover */
+}
+
+/* === Stats Section === */
+
+/* Section Heading - Bigger */
+.stats-section h2 {
+  font-size: 2.5rem; /* ~text-4xl */
+  font-weight: 800;
+  color: #1e3a8a; /* Deep Blue */
+}
+
+/* Circle Counter Numbers - Bigger */
+.counter {
+  font-size: 3rem; /* Bigger numbers */
+  font-weight: 900;
+  color: #2563eb; /* Tailwind Blue-600 */
+}
+
+/* Stat Labels (Outpatient / Deliveries / Inpatient) - Bigger */
+.stats-section h3 {
+  font-size: 1.5rem; /* ~text-2xl */
+  font-weight: 700;
+  color: #374151; /* Gray-700 */
+  margin-top: 1rem;
+}
+
+/* Circle Styling */
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #2563eb;
+  background: transparent;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2563eb;
+  position: relative;
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.6);
+  animation: glowPulse 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+/* Glow Animation */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.6),
+                0 0 30px rgba(37, 99, 235, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(37, 99, 235, 0.9),
+                0 0 50px rgba(37, 99, 235, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.6),
+                0 0 30px rgba(37, 99, 235, 0.4);
+  }
+}
+
+/* Extra spacing before Stats Section */
+.stats-section {
+  margin-top: 5rem; /* More space between Doctors and Statistics */
+}

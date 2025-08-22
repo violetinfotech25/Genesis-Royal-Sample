@@ -1,0 +1,32 @@
+.about-logo-container {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    flex-direction: column;  /* stack logo and heading */           /* full viewport height */
+    text-align: center;      /* center text */
+    padding: 20px;           /* small padding for mobile */
+    box-sizing: border-box;
+}
+
+/* Logo styling */
+.about-logo {
+    width: 300px;        /* scale with container */   /* never exceed 300px */
+    height: auto;       /* maintain aspect ratio */
+}
+
+.about-logo-container h2 {
+  font-weight: bold;
+  font-size: 40px;
+  background: linear-gradient(90deg, 
+    #0072bc 0%,      /* Hospital Blue start */
+    #0072bc 35%,     /* Hospital Blue up to 70% */
+    #27ae60 60%,     /* Green starts at 70% */     /* Green to 90% */
+    #16a085 75%,     /* Teal starts at 90% */
+    #16a085 90%     /* Teal ends at 100% */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-top: 15px;
+}

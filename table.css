@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+
+@import url(css/animate.css);
+@import url(css/flaticon.css);
+@import url(css/prettyPhoto.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
+* {font-family: 'Poppins', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
+
+.service-time {
+    float: left;
+    width: 100%;
+    min-height: auto;
+    margin-top: -280px;
+    padding: 35px 20px;
+    color: #fff;
+    position: relative;
+}
+.service-time h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: -5px 0 15px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+.service-time p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+.service-time ul {
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.service-time ul li {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: dashed 1px #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.service-time.middle::before {
+
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-right: solid #a0cff7 70px;
+    left: -70px;
+
+}
+
+.service-time.middle::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-left: solid #a0cff7 70px;
+    right: -70px;
+}
+
+.service-time.one {
+    position: relative;
+    z-index: 1;
+}
+
+#home.first-section {
+    position: relative;
+    min-height: auto;
+}	
+.service-time.middle::before {
+	display:none;
+}
+.service-time.middle::after {
+	display:none;
+}
+.service-time {
+    padding: 25px 20px 35px;
+}
+
+.info-icon {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}

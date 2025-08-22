@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+
+@import url(css/animate.css);
+@import url(css/flaticon.css);
+@import url(css/prettyPhoto.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
+* {font-family: 'Poppins', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
+
+
+.contact-section {
+    float: left;
+    width: 100%;
+    min-height: 450px;
+    background: yellow;
+}
+.contact-section {
+	position:relative;
+}
+
+.contact-section {
+    float: left;
+    width: 100%;
+    min-height: 540px;
+    background: yellow;
+}
+.contact-section #googleMap {
+    height: 550px !important;
+}
+
+.form-contant {
+    float: left;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 1;
+    padding: 60px;
+}
+.form-contant input, .form-contant textarea {
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-bottom: solid #fff 2px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.form-contant input:focus, .form-contant textarea:focus {
+	color:#fff;border-color:#fff;
+}
+
+
+.actions {
+    color: #fff;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}       
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}	
+.right-header {float: right;margin: 11px 0;display: none;}
+nav.main-menu .navbar-toggle {border: solid #fff 2px;}
+.header-top div.container {display: flex;justify-content: center;}
+#navbar.navbar-collapse {float: left;width: 100%;padding: 0;}
+.header-bottom nav.main-menu ul.nav.navbar-nav > li a {color: #fff;font-size: 16px;padding: 15px 15px;
+    text-transform: none;letter-spacing: 0;font-weight: 500;margin-right: 5px;}
+.typewrite {font-size: 45px;}	
+.service-time.middle::before,.service-time.middle::after {display:none;}
+.service-time {margin-top: 0;}
+.service-time.one {margin-top: -340px;}
+.serv p {display: none;}
+.inner-services {margin: 0 0;}
+.form-contant {float: left;position: absolute;width: 40%;height: 100%;background: rgba(0,0,0,.8);z-index: 1;padding: 15px 30px;}
+#googleMap {height: 540px !important;}
+.footer-info h3, .subcriber-info h3 {float: left;width: 100%;}
+.footer-info p {float: left;width: 100%;}
+	
+}
+
+
+@media (min-width:992px) and (max-width:1000px) {
+
+nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}	
+.right-header {float: right;margin: 11px 0;display: none;}
+nav.main-menu .navbar-toggle {border: solid #fff 2px;}
+.header-top div.container {display: flex;justify-content: center;}
+#navbar.navbar-collapse {float: left;width: 100%;padding: 0;}
+.header-bottom nav.main-menu ul.nav.navbar-nav > li a {color: #fff;font-size: 16px;padding: 15px 15px;
+    text-transform: none;letter-spacing: 0;font-weight: 500;margin-right: 5px;}
+.typewrite {font-size: 45px;}	
+.service-time.middle::before,.service-time.middle::after {display:none;}
+.serv p {display: none;}
+.inner-services {margin: 0 0;}
+.form-contant {float: left;position: absolute;width: 40%;height: 100%;background: rgba(0,0,0,.8);z-index: 1;padding: 15px 30px;}
+.footer-info h3, .subcriber-info h3 {float: left;width: 100%;}
+.footer-info p {float: left;width: 100%;}
+.service-time {padding: 50px 25px;}
+.pricing-table-header h2 {font-size: 25px;}
+.pricing-table-features {padding: 0 10px 15px 0;}
+	
+}
